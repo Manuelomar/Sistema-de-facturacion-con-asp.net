@@ -1,0 +1,49 @@
+﻿body {
+	background: linear-gradient(to left,#222831,#30475e);
+	height: 1400px;
+	width: 800px;
+	margin: auto;
+	border-radius: 25px;
+}
+.caja {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px 5px #000000;
+}
+.nomina {
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px 5px #000000;
+}
+.cajaempleados {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px 5px #000000;
+	width: 1000px;
+}
+.tit {
+	margin: auto;
+	background: #30475e;
+	border-radius: 25px;
+	width :350px;
+}
+.anclanomina {
+	margin: auto;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 25px;
+	border: #000000;
+	width: 150px;
+}
+.tittabla {
+	margin: auto;
+	background: #30475e;
+	border-radius: 25px;
+	width: 210px;
+}
+.ancla {
+	margin: auto;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 25px;
+	border: #000000;
+	width: 150px;
+}

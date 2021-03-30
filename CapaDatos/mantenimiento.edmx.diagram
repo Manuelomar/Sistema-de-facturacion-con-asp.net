@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b4752f02ada64380b989f189466693f0" Name="Diagram1">
+        <EntityTypeShape EntityType="mantenimientoModel.Calculo_nomina" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mantenimientoModel.cargo" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mantenimientoModel.departamento" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="mantenimientoModel.empleados" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="mantenimientoModel.Empleados_Activos" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mantenimientoModel.entrames" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mantenimientoModel.licencia" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="mantenimientoModel.nomina" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mantenimientoModel.permisos" Width="1.5" PointX="3" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mantenimientoModel.permisosfiltro" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mantenimientoModel.salida_empleados" Width="1.5" PointX="3" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mantenimientoModel.salimes" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="mantenimientoModel.vacaciones" Width="1.5" PointX="3" PointY="19.75" IsExpanded="true" />
+        <AssociationConnector Association="mantenimientoModel.FK__Calculo_n__id_em__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="mantenimientoModel.FK__cargo__id_emplea__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="mantenimientoModel.FK__departame__id_em__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="mantenimientoModel.FK__licencia__id_emp__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="mantenimientoModel.FK__permisos__id_emp__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="mantenimientoModel.FK__salida_em__id_em__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="mantenimientoModel.FK__vacacione__id_em__4F7CD00D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
